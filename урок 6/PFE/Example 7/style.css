@@ -1,0 +1,16 @@
+body > div {
+  margin: 100px 100px;
+  color: #7FFF00;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 100px;
+  transition: all 0.1s ease;
+}
+
+.three:hover {
+  text-shadow: 1px 1px #298A08, 2px 2px #298A08, 3px 3px #298A08, 5px 5px #298A08;
+  -webkit-transform: translateX(5px);
+  transform: translateY(-5px);
+}

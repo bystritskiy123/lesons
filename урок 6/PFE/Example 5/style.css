@@ -1,0 +1,39 @@
+body > div {
+  margin: 100px 100px;
+  width: 250px;
+  height: 100px;
+  background: #000;
+  color: #7FFF00;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 100px;
+  transition: all 0.5s ease;
+}
+
+@keyframes swing {
+  15% {
+    transform: translateX(15px);
+  }
+  30% {
+    transform: translateX(-15px);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+  65% {
+    transform: translateX(-8px);
+  }
+  80% {
+    transform: translateX(4px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.swaying:hover {
+  animation: swing 1.5s ease;
+  animation-iteration-count: 1;
+}
